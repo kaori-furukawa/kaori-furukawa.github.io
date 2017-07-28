@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background:rgba(148,136,136,0.9);
+	position: fixed;
+}
+
+img{
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+nav{
+	height: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu{
+	float: right;
+	line-height: 70px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu-item{
+	float: left;
+	list-style: none;
+	margin-right: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.back-img{
+	width: 100%;
+	background-image: url(../img/concert1.jpg);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: 95% 45%;
+}
+
+.back-img2{
+	background-color: rgba(255,255,255,0.2);
+}
+h2{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 25px;
+	padding-top: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(74,68,68);
+}
+h2::after{
+	width: 220px;
+    text-align: left;
+	display: block;
+	border-top: 2px solid #EC715F;
+	content: "";
+	margin: 0 auto;
+}
+
+.schedule-box{
+	width: auto;
+	margin: 0 130px;
+	color: rgb(74,68,68);
+}
+
+h3{
+	margin-top: 20px;
+}
+
+p{
+	font-size: 14px;
+}
+
+.footer-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+nav{
+	height: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu1{
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu-item1{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+	font-size: 6px;
+}
+
+.top-menu-item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+small{
+	color: #FAFAFA;
+	font-size: 8px;
+	line-height: 50px;
+}

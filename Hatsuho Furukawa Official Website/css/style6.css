@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background:rgba(148,136,136,0.9);
+	position: fixed;
+	z-index: 2;
+}
+
+img{
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+nav{
+	height: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu{
+	float: right;
+	line-height: 70px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu-item{
+	float: left;
+	list-style: none;
+	margin-right: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+h2{
+	font-size: 25px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(74,68,68);
+}
+
+h2::after{
+	width: 140px;
+    text-align: left;
+	display: block;
+	border-top: 2px solid #EC715F;
+	content: "";
+	margin: 0 auto;
+}
+
+.photo-box{
+	width: 1080px;
+	margin: 60px auto 60px;
+	height: 700px;
+	z-index: 1;
+}
+
+.photo{
+	width: 250px;
+	height: 200px;
+	margin: 0 auto;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
+}
+
+.img-1{
+	background-image: url(../img/method.jpg);
+}
+
+.img-2{
+	background-image: url(../img/birthday.jpg);	
+}
+
+.img-3{
+	background-image: url(../img/geila.jpg);
+}
+
+.img-4{
+	background-image: url(../img/piano2.jpg);
+}
+
+.img-5{
+	background-image: url(../img/minami.jpg);
+}
+
+.img-6{
+	background-image: url(../img/concert3.jpg);
+}
+
+.img-7{
+	background-image: url(../img/karashima2.jpg);
+}
+
+.img-8{
+	background-image: url(../img/moriyama4.jpg);
+}
+
+.img-9{
+	background-image: url(../img/moriyama-rimi.jpg);
+}
+
+.img-10{
+	background-image: url(../img/concert2.jpg);
+}
+
+.img-11{
+	background-image: url(../img/live5-osaka.JPG);
+}
+
+.img-12{
+	background-image: url(../img/ohtahiromi.jpg);
+}
+
+.footer-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+nav{
+	height: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu1{
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu-item1{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+	font-size: 6px;
+}
+
+.top-menu-item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+small{
+	color: #FAFAFA;
+	font-size: 8px;
+	line-height: 50px;
+}
+

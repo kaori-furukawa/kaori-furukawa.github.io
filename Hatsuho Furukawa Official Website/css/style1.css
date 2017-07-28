@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background:rgba(148,136,136,0.9);
+	position: fixed;
+	z-index: 2;
+}
+
+img{
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+nav{
+	height: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu{
+	float: right;
+	line-height: 70px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu-item{
+	float: left;
+	list-style: none;
+	margin-right: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.title{
+	width: 100%;
+	height: 550px;
+	background:black;
+    background-image: url(../img/TOP-PAGE.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 70px;
+	z-index: 1;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.title1{
+	font-size: 24px;
+	color: orange;
+	padding-top: 110px;
+	padding-left: 70px;	
+}
+
+.title2{
+	font-size: 36px;
+	color: rgb(12,250,226);
+	text-align: left;
+	padding-left: 70px;
+}
+
+.title3{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 140px;
+	color: rgb(217,202,202);
+}
+
+.footer-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+nav{
+	height: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu1{
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu-item1{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+	font-size: 6px;
+}
+
+.top-menu-item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+small{
+	color: #FAFAFA;
+	font-size: 8px;
+	line-height: 50px;
+}
+
+
+

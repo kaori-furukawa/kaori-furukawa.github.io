@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}*
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+    background:rgba(148,136,136,0.9);
+    position: fixed;
+}
+
+img{
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+nav{
+	height: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu{
+	float: right;
+	line-height: 70px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu-item{
+	float: left;
+	list-style: none;
+	margin-right: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.title{
+	width: 100%;
+	height: 580px;
+	color: rgb(69,206,239);
+    background-image: url("../img/trio3saebojazz2.jpg");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: black;
+	padding-top: 100px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.back-img2{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.title1{
+	font-size: 38px;
+	color: orange;
+	padding-top: 5px;
+	text-align: center;
+
+}
+
+.title2{
+	font-size: 20px;
+	color: rgb(12,250,226);
+	text-align: center;
+	padding-left: 22px;
+	padding-top: 10px;
+}
+
+.title3{
+	font-size: 20px;
+    padding-top: 30px;
+    padding-left: 380px;
+    color: rgb(74,68,68);
+}
+
+
+.pianotorio-box{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.member{
+	font-size: 16px;
+	text-align: center;
+	color: #FAFAFA;
+}
+
+.member-text{
+	font-size: 16px;
+	text-align: center;
+	color: orange;
+	padding-left: 350px;
+}
+
+.profile-box{
+	width: 100%;
+	height: 650px;
+	background-color: black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.box1{
+	width: 500px;
+	padding: 20px 60px;
+	float: left;
+}
+
+.member-img{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.img1{
+	background-image: url(../img/bass1.JPG);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.box2{
+	width: 500px;
+	padding: 20px 60px;
+	float: right;
+}
+
+.img2{
+	background-image: url(../img/drum1.JPG);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+h4{
+	padding-bottom: 5px;
+	color: skyblue;
+}
+.profile-text{
+	font-size: 14px;
+	color: #FAFAFA;
+}
+
+.footer-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+nav{
+	height: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu1{
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu-item1{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+	font-size: 6px;
+}
+
+.top-menu-item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+small{
+	color: #FAFAFA;
+	font-size: 8px;
+	line-height: 50px;
+}

@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background:rgba(148,136,136,0.9);
+	position: fixed;
+}
+
+img{
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+nav{
+	height: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu{
+	float: right;
+	line-height: 70px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.top-menu-item{
+	float: left;
+	list-style: none;
+	margin-right: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.box{
+	background-color: #FAFAFA;
+	color: rgb(74,68,68);
+}
+
+h2{
+	font-size: 25px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2::after{
+	width: 120px;
+    text-align: left;
+	display: block;
+	border-top: 2px solid #EC715F;
+	content: "";
+	margin: 0 auto;
+}
+
+.profile-box{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.profile-img{
+	width: 240px;
+	height: 370px;
+	background-image: url(../img/hatsuho.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	float: left;
+	margin: 5px 42px 30px 8px;
+}
+
+.text-box{
+	text-align: left;
+}
+
+h3{
+	font-size: 20px;
+	margin-top: 60px;
+}
+
+h4{
+	margin-bottom: 20px;
+}
+
+.title{
+	font-size: 20px;
+	color: #EC715F;
+	margin-top: 38px;
+}
+
+p{
+	font-size: 14px;
+}
+
+.title1{
+	font-size: 20px;
+	color: #EC715F;
+	margin-top: 5px;
+}
+
+.footer-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+nav{
+	height: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.top-menu1{
+	float: right;
+	line-height: 50px;
+}
+
+.top-menu-item1{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+	font-size: 6px;
+}
+
+.top-menu-item1 a{
+	text-decoration: none;
+	color: black;
+}
+
+small{
+	color: #FAFAFA;
+	font-size: 8px;
+	line-height: 50px;
+}
+
